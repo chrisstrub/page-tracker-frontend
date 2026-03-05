@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { io } from "socket.io-client";
 import "./App.css";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://page-tracker-backend-ay9p.onrender.com";
 
 function shortPaper(paper) {
   return paper === "Watertown Daily Times" ? "WDT" : "MTG";
